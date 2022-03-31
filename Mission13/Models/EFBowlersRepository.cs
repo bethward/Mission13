@@ -31,5 +31,11 @@ namespace Mission13.Models
             _context.Remove(b);
             _context.SaveChanges();
         }
+
+        public void UpdateBowler(Bowler b)
+        {
+            _context.Update(b);
+            _context.SaveChanges();
+        }
     }
 }

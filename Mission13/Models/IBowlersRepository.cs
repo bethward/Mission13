@@ -13,5 +13,7 @@ namespace Mission13.Models
 
         public void DeleteBowler(Bowler b);
 
+        public void UpdateBowler(Bowler b);
+
     }
 }

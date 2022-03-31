@@ -49,7 +49,7 @@ namespace Mission13.Controllers
         [HttpPost]
         public IActionResult Edit(Bowler bowler)
         {
-            _repo.SaveChanges(bowler);
+            _repo.UpdateBowler(bowler);
 
             return RedirectToAction("Index");
         }
